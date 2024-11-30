@@ -35,6 +35,13 @@ local TextButton_21 = Instance.new("TextButton")
 local TextLabel_7 = Instance.new("TextLabel")
 local TextButton_22 = Instance.new("TextButton")
 local TextButton_23 = Instance.new("TextButton")
+local Frame_2 = Instance.new("Frame")
+local Frame_3 = Instance.new("Frame")
+local Frame_4 = Instance.new("Frame")
+local Frame_5 = Instance.new("Frame")
+local Frame_6 = Instance.new("Frame")
+local Frame_7 = Instance.new("Frame")
+local TextLabel_8 = Instance.new("TextLabel")
 local TextButton_24 = Instance.new("TextButton")
 
 --Properties:
@@ -47,8 +54,8 @@ Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Frame.BackgroundTransparency = 0.300
 Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Frame.BorderSizePixel = 0
-Frame.Position = UDim2.new(0.00826454721, 0, 0.0175880156, 0)
-Frame.Size = UDim2.new(0, 1432, 0, 739)
+Frame.Position = UDim2.new(0.0779225305, 0, 0.0188442972, 0)
+Frame.Size = UDim2.new(0, 1200, 0, 724)
 
 TextLabel.Parent = Frame
 TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -85,7 +92,7 @@ TextButton_2.BorderSizePixel = 0
 TextButton_2.Position = UDim2.new(0.00977653638, 0, 0.115020297, 0)
 TextButton_2.Size = UDim2.new(0, 200, 0, 28)
 TextButton_2.Font = Enum.Font.SourceSansSemibold
-TextButton_2.Text = "Verbal Hub key V2UPDATE"
+TextButton_2.Text = "Verbal Hub"
 TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_2.TextSize = 21.000
 TextButton_2.MouseButton1Down:connect(function()
@@ -127,7 +134,7 @@ TextButton_4.BorderSizePixel = 0
 TextButton_4.Position = UDim2.new(0.188547492, 0, 0.115020297, 0)
 TextButton_4.Size = UDim2.new(0, 200, 0, 28)
 TextButton_4.Font = Enum.Font.SourceSansSemibold
-TextButton_4.Text = "Rainbow Square BIG"
+TextButton_4.Text = "Rainbow Platform"
 TextButton_4.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_4.TextSize = 21.000
 TextButton_4.MouseButton1Down:connect(function()
@@ -214,7 +221,7 @@ TextButton_9.BorderSizePixel = 0
 TextButton_9.Position = UDim2.new(0.365223467, 0, 0.0622462779, 0)
 TextButton_9.Size = UDim2.new(0, 200, 0, 28)
 TextButton_9.Font = Enum.Font.SourceSansSemibold
-TextButton_9.Text = "FLY GUI !kick risk!"
+TextButton_9.Text = "FLY GUI"
 TextButton_9.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_9.TextSize = 21.000
 TextButton_9.MouseButton1Down:connect(function()
@@ -328,7 +335,7 @@ TextButton_15.BorderSizePixel = 0
 TextButton_15.Position = UDim2.new(0.711592197, 0, 0.115020297, 0)
 TextButton_15.Size = UDim2.new(0, 200, 0, 28)
 TextButton_15.Font = Enum.Font.SourceSansSemibold
-TextButton_15.Text = "My GUI 2 !NL!"
+TextButton_15.Text = "My GUI 2"
 TextButton_15.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_15.TextSize = 21.000
 TextButton_15.MouseButton1Down:connect(function()
@@ -407,7 +414,6 @@ TextButton_19.MouseButton1Down:connect(function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/aslan90101/first-person/refs/heads/main/ufp.lua", true))()
 end)
 
-
 TextButton_20.Parent = Frame
 TextButton_20.BackgroundColor3 = Color3.fromRGB(20, 31, 89)
 TextButton_20.BackgroundTransparency = 0.650
@@ -434,9 +440,6 @@ TextButton_21.Font = Enum.Font.SourceSansSemibold
 TextButton_21.Text = "Fling Players GUI"
 TextButton_21.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_21.TextSize = 21.000
-TextButton_21.MouseButton1Down:connect(function()
-loadstring(game:HttpGet("https://paste.ee/r/NTtmf", true))()
-end)
 
 TextLabel_7.Parent = Frame
 TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -480,6 +483,59 @@ TextButton_23.MouseButton1Down:connect(function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/Aimbot-V2/refs/heads/main/Resources/Scripts/Raw%20Main.lua", true))()
 end)
 
+Frame_2.Parent = Frame
+Frame_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_2.BorderSizePixel = 0
+Frame_2.Position = UDim2.new(0.00292826327, 0, 0.998786986, 0)
+Frame_2.Size = UDim2.new(0, 1195, 0, 5)
+
+Frame_3.Parent = Frame
+Frame_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_3.BorderSizePixel = 0
+Frame_3.Position = UDim2.new(0.998333216, 0, 0, 0)
+Frame_3.Size = UDim2.new(0, 5, 0, 728)
+
+Frame_4.Parent = Frame
+Frame_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_4.BorderSizePixel = 0
+Frame_4.Size = UDim2.new(0, 1199, 0, 5)
+
+Frame_5.Parent = Frame
+Frame_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_5.BorderSizePixel = 0
+Frame_5.Size = UDim2.new(0, 5, 0, 728)
+
+Frame_6.Parent = Frame
+Frame_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_6.BorderSizePixel = 0
+Frame_6.Position = UDim2.new(0.885833323, 0, 0.00616404507, 0)
+Frame_6.Size = UDim2.new(0, 2, 0, 718)
+
+Frame_7.Parent = Frame
+Frame_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_7.BorderSizePixel = 0
+Frame_7.Position = UDim2.new(0.00249999994, 0, 0.762430966, 0)
+Frame_7.Size = UDim2.new(0, 1060, 0, 3)
+
+TextLabel_8.Parent = Frame
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.BackgroundTransparency = 1.000
+TextLabel_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_8.BorderSizePixel = 0
+TextLabel_8.Position = UDim2.new(0.00916666631, 0, 0.784530401, 0)
+TextLabel_8.Size = UDim2.new(0, 1034, 0, 148)
+TextLabel_8.Font = Enum.Font.SourceSans
+TextLabel_8.Text = "♦♣♠☺☻♥○◘•♫♀§"
+TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.TextSize = 100.000
+TextLabel_8.TextWrapped = true
+
 TextButton_24.Parent = ScreenGui
 TextButton_24.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_24.BackgroundTransparency = 0.600
@@ -494,7 +550,190 @@ TextButton_24.TextSize = 21.000
 
 -- Scripts:
 
-local function VREOBHL_fake_script() -- TextButton_24.LocalScript 
+local function ANYWZZ_fake_script() -- Frame_2.LocalScript 
+	local script = Instance.new('LocalScript', Frame_2)
+
+	local frame = script.Parent -- Получаем ссылку на Frame
+	local tweenService = game:GetService("TweenService")
+	
+	-- Функция для создания анимации цвета
+	local function animateColor()
+		while true do
+			-- Создаем анимацию изменения цвета
+			local tween1 = tweenService:Create(frame, TweenInfo.new(2, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut), {BackgroundColor3 = Color3.fromRGB(255, 0, 0)}) -- Красный
+			local tween2 = tweenService:Create(frame, TweenInfo.new(2, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut), {BackgroundColor3 = Color3.fromRGB(0, 255, 0)}) -- Зеленый
+			local tween3 = tweenService:Create(frame, TweenInfo.new(2, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut), {BackgroundColor3 = Color3.fromRGB(0, 0, 255)}) -- Синий
+	
+			-- Запускаем анимацию
+			tween1:Play()
+			tween1.Completed:Wait() -- Ждем окончания первой анимации
+			tween2:Play()
+			tween2.Completed:Wait() -- Ждем окончания второй анимации
+			tween3:Play()
+			tween3.Completed:Wait() -- Ждем окончания третьей анимации
+		end
+	end
+	
+	-- Запускаем анимацию
+	animateColor()
+	
+end
+coroutine.wrap(ANYWZZ_fake_script)()
+local function GZHHQXD_fake_script() -- Frame_3.LocalScript 
+	local script = Instance.new('LocalScript', Frame_3)
+
+	local frame = script.Parent -- Получаем ссылку на Frame
+	local tweenService = game:GetService("TweenService")
+	
+	-- Функция для создания анимации цвета
+	local function animateColor()
+		while true do
+			-- Создаем анимацию изменения цвета
+			local tween1 = tweenService:Create(frame, TweenInfo.new(2, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut), {BackgroundColor3 = Color3.fromRGB(255, 0, 0)}) -- Красный
+			local tween2 = tweenService:Create(frame, TweenInfo.new(2, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut), {BackgroundColor3 = Color3.fromRGB(0, 255, 0)}) -- Зеленый
+			local tween3 = tweenService:Create(frame, TweenInfo.new(2, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut), {BackgroundColor3 = Color3.fromRGB(0, 0, 255)}) -- Синий
+	
+			-- Запускаем анимацию
+			tween1:Play()
+			tween1.Completed:Wait() -- Ждем окончания первой анимации
+			tween2:Play()
+			tween2.Completed:Wait() -- Ждем окончания второй анимации
+			tween3:Play()
+			tween3.Completed:Wait() -- Ждем окончания третьей анимации
+		end
+	end
+	
+	-- Запускаем анимацию
+	animateColor()
+	
+end
+coroutine.wrap(GZHHQXD_fake_script)()
+local function VTVRNPL_fake_script() -- Frame_4.LocalScript 
+	local script = Instance.new('LocalScript', Frame_4)
+
+	local frame = script.Parent -- Получаем ссылку на Frame
+	local tweenService = game:GetService("TweenService")
+	
+	-- Функция для создания анимации цвета
+	local function animateColor()
+		while true do
+			-- Создаем анимацию изменения цвета
+			local tween1 = tweenService:Create(frame, TweenInfo.new(2, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut), {BackgroundColor3 = Color3.fromRGB(255, 0, 0)}) -- Красный
+			local tween2 = tweenService:Create(frame, TweenInfo.new(2, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut), {BackgroundColor3 = Color3.fromRGB(0, 255, 0)}) -- Зеленый
+			local tween3 = tweenService:Create(frame, TweenInfo.new(2, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut), {BackgroundColor3 = Color3.fromRGB(0, 0, 255)}) -- Синий
+	
+			-- Запускаем анимацию
+			tween1:Play()
+			tween1.Completed:Wait() -- Ждем окончания первой анимации
+			tween2:Play()
+			tween2.Completed:Wait() -- Ждем окончания второй анимации
+			tween3:Play()
+			tween3.Completed:Wait() -- Ждем окончания третьей анимации
+		end
+	end
+	
+	-- Запускаем анимацию
+	animateColor()
+	
+end
+coroutine.wrap(VTVRNPL_fake_script)()
+local function LDDN_fake_script() -- Frame_5.LocalScript 
+	local script = Instance.new('LocalScript', Frame_5)
+
+	local frame = script.Parent -- Получаем ссылку на Frame
+	local tweenService = game:GetService("TweenService")
+	
+	-- Функция для создания анимации цвета
+	local function animateColor()
+		while true do
+			-- Создаем анимацию изменения цвета
+			local tween1 = tweenService:Create(frame, TweenInfo.new(2, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut), {BackgroundColor3 = Color3.fromRGB(255, 0, 0)}) -- Красный
+			local tween2 = tweenService:Create(frame, TweenInfo.new(2, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut), {BackgroundColor3 = Color3.fromRGB(0, 255, 0)}) -- Зеленый
+			local tween3 = tweenService:Create(frame, TweenInfo.new(2, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut), {BackgroundColor3 = Color3.fromRGB(0, 0, 255)}) -- Синий
+	
+			-- Запускаем анимацию
+			tween1:Play()
+			tween1.Completed:Wait() -- Ждем окончания первой анимации
+			tween2:Play()
+			tween2.Completed:Wait() -- Ждем окончания второй анимации
+			tween3:Play()
+			tween3.Completed:Wait() -- Ждем окончания третьей анимации
+		end
+	end
+	
+	-- Запускаем анимацию
+	animateColor()
+	
+end
+coroutine.wrap(LDDN_fake_script)()
+local function XXTL_fake_script() -- Frame_6.LocalScript 
+	local script = Instance.new('LocalScript', Frame_6)
+
+	local frame = script.Parent -- Получаем ссылку на Frame
+	local tweenService = game:GetService("TweenService")
+	
+	-- Функция для создания анимации цвета
+	local function animateColor()
+		while true do
+			-- Создаем анимацию изменения цвета
+			local tween1 = tweenService:Create(frame, TweenInfo.new(2, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut), {BackgroundColor3 = Color3.fromRGB(255, 0, 0)}) -- Красный
+			local tween2 = tweenService:Create(frame, TweenInfo.new(2, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut), {BackgroundColor3 = Color3.fromRGB(0, 255, 0)}) -- Зеленый
+			local tween3 = tweenService:Create(frame, TweenInfo.new(2, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut), {BackgroundColor3 = Color3.fromRGB(0, 0, 255)}) -- Синий
+	
+			-- Запускаем анимацию
+			tween1:Play()
+			tween1.Completed:Wait() -- Ждем окончания первой анимации
+			tween2:Play()
+			tween2.Completed:Wait() -- Ждем окончания второй анимации
+			tween3:Play()
+			tween3.Completed:Wait() -- Ждем окончания третьей анимации
+		end
+	end
+	
+	-- Запускаем анимацию
+	animateColor()
+	
+end
+coroutine.wrap(XXTL_fake_script)()
+local function XJYAU_fake_script() -- Frame.LocalScript 
+	local script = Instance.new('LocalScript', Frame)
+
+	ui = script.Parent
+	ui.Draggable = true
+	ui.Active = true
+	ui.Selectable = true
+end
+coroutine.wrap(XJYAU_fake_script)()
+local function VWXOOLR_fake_script() -- Frame_7.LocalScript 
+	local script = Instance.new('LocalScript', Frame_7)
+
+	local frame = script.Parent -- Получаем ссылку на Frame
+	local tweenService = game:GetService("TweenService")
+	
+	-- Функция для создания анимации цвета
+	local function animateColor()
+		while true do
+			-- Создаем анимацию изменения цвета
+			local tween1 = tweenService:Create(frame, TweenInfo.new(2, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut), {BackgroundColor3 = Color3.fromRGB(255, 0, 0)}) -- Красный
+			local tween2 = tweenService:Create(frame, TweenInfo.new(2, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut), {BackgroundColor3 = Color3.fromRGB(0, 255, 0)}) -- Зеленый
+			local tween3 = tweenService:Create(frame, TweenInfo.new(2, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut), {BackgroundColor3 = Color3.fromRGB(0, 0, 255)}) -- Синий
+	
+			-- Запускаем анимацию
+			tween1:Play()
+			tween1.Completed:Wait() -- Ждем окончания первой анимации
+			tween2:Play()
+			tween2.Completed:Wait() -- Ждем окончания второй анимации
+			tween3:Play()
+			tween3.Completed:Wait() -- Ждем окончания третьей анимации
+		end
+	end
+	
+	-- Запускаем анимацию
+	animateColor()
+	
+end
+coroutine.wrap(VWXOOLR_fake_script)()
+local function GCPNK_fake_script() -- TextButton_24.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_24)
 
 	-- Получаем ссылку на TextButton и Frame
@@ -516,4 +755,5 @@ local function VREOBHL_fake_script() -- TextButton_24.LocalScript
 	end)
 	
 end
-coroutine.wrap(VREOBHL_fake_script)()
+coroutine.wrap(GCPNK_fake_script)()
+
