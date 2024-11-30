@@ -282,7 +282,7 @@ TextButton_12.Text = "Nameless Admin"
 TextButton_12.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_12.TextSize = 21.000
 TextButton_12.MouseButton1Down:connect(function()
-loadstring(game:HttpGet("loadstring(game:HttpGet('https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source'))()", true))()
+loadstring(game:HttpGet("loadstring(game:HttpGet('https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source'))()
 end)
 
 TextButton_13.Parent = Frame
