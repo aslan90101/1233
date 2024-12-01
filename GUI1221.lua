@@ -440,6 +440,9 @@ TextButton_21.Font = Enum.Font.SourceSansSemibold
 TextButton_21.Text = "Fling Players GUI"
 TextButton_21.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_21.TextSize = 21.000
+TextButton_21.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://paste.ee/r/NTtmf", true))()
+end)
 
 TextLabel_7.Parent = Frame
 TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
