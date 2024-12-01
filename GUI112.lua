@@ -430,7 +430,7 @@ TextButton_20.BorderSizePixel = 0
 TextButton_20.Position = UDim2.new(0.00977653638, 0, 0.630581856, 0)
 TextButton_20.Size = UDim2.new(0, 200, 0, 28)
 TextButton_20.Font = Enum.Font.SourceSansSemibold
-TextButton_20.Text = "Teleport Gui"
+TextButton_20.Text = "Tp Gui Ins To Open"
 TextButton_20.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_20.TextSize = 21.000
 TextButton_20.MouseButton1Down:connect(function()
