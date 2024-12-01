@@ -3,6 +3,7 @@
 
 -- Instances:
 
+local ScreenGui = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 local TextLabel = Instance.new("TextLabel")
 local TextButton = Instance.new("TextButton")
@@ -49,10 +50,14 @@ local Frame_10 = Instance.new("Frame")
 local Frame_11 = Instance.new("Frame")
 local Frame_12 = Instance.new("Frame")
 local TextButton_26 = Instance.new("TextButton")
+local TextButton_27 = Instance.new("TextButton")
 
 --Properties:
 
-Frame.Parent = game.StarterGui.ScreenGui
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = ScreenGui
 Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Frame.BackgroundTransparency = 0.300
 Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
@@ -83,6 +88,9 @@ TextButton.Font = Enum.Font.SourceSansSemibold
 TextButton.Text = "Blizt Crack"
 TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton.TextSize = 21.000
+TextButton.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/aslan90101/blzrcrack/refs/heads/main/ZTTЕ.lua", true))()
+end)
 
 TextButton_2.Parent = Frame
 TextButton_2.BackgroundColor3 = Color3.fromRGB(20, 31, 89)
@@ -95,6 +103,9 @@ TextButton_2.Font = Enum.Font.SourceSansSemibold
 TextButton_2.Text = "Verbal Hub"
 TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_2.TextSize = 21.000
+TextButton_2.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/VerbalHubz/Verbal-Hub/main/Verbalhub.lua", true))()
+end)
 
 TextLabel_2.Parent = Frame
 TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -176,11 +187,11 @@ TextButton_7.BorderSizePixel = 0
 TextButton_7.Position = UDim2.new(0.188547492, 0, 0.278755069, 0)
 TextButton_7.Size = UDim2.new(0, 200, 0, 28)
 TextButton_7.Font = Enum.Font.SourceSansSemibold
-TextButton_7.Text = "Steps To The Sky"
+TextButton_7.Text = "250 Mini Cubes"
 TextButton_7.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_7.TextSize = 21.000
 TextButton_7.MouseButton1Down:connect(function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/aslan90101/dfdfdfd/refs/heads/main/fff.lua", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/aslan90101/sdafhgd/refs/heads/main/dsgdfjdsf.lua", true))()
 end)
 
 TextButton_8.Parent = Frame
@@ -279,7 +290,7 @@ TextButton_12.Text = "Nameless Admin"
 TextButton_12.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_12.TextSize = 21.000
 TextButton_12.MouseButton1Down:connect(function()
-loadstring(game:HttpGet("loadstring(game:HttpGet('https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source'))()", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source", true))()
 end)
 
 TextButton_13.Parent = Frame
@@ -332,7 +343,7 @@ TextButton_15.BorderSizePixel = 0
 TextButton_15.Position = UDim2.new(0.711592197, 0, 0.115020297, 0)
 TextButton_15.Size = UDim2.new(0, 200, 0, 28)
 TextButton_15.Font = Enum.Font.SourceSansSemibold
-TextButton_15.Text = "My GUI 2 !NL!"
+TextButton_15.Text = "My GUI 2"
 TextButton_15.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_15.TextSize = 21.000
 TextButton_15.MouseButton1Down:connect(function()
@@ -411,7 +422,6 @@ TextButton_19.MouseButton1Down:connect(function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/aslan90101/first-person/refs/heads/main/ufp.lua", true))()
 end)
 
-
 TextButton_20.Parent = Frame
 TextButton_20.BackgroundColor3 = Color3.fromRGB(20, 31, 89)
 TextButton_20.BackgroundTransparency = 0.650
@@ -459,7 +469,7 @@ TextButton_22.BackgroundColor3 = Color3.fromRGB(20, 31, 89)
 TextButton_22.BackgroundTransparency = 0.650
 TextButton_22.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_22.BorderSizePixel = 0
-TextButton_22.Position = UDim2.new(0.188547492, 0, 0.412719905, 0)
+TextButton_22.Position = UDim2.new(0.188547462, 0, 0.451393932, 0)
 TextButton_22.Size = UDim2.new(0, 200, 0, 28)
 TextButton_22.Font = Enum.Font.SourceSansSemibold
 TextButton_22.Text = "Nut Hub"
@@ -617,9 +627,22 @@ TextButton_26.MouseButton1Down:connect(function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/aslan90101/dfdfdfd/refs/heads/main/fff.lua", true))()
 end)
 
+TextButton_27.Parent = ScreenGui
+TextButton_27.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_27.BackgroundTransparency = 0.600
+TextButton_27.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_27.BorderSizePixel = 0
+TextButton_27.Position = UDim2.new(0.946969688, 0, 0.948492467, 0)
+TextButton_27.Size = UDim2.new(0, 70, 0, 34)
+TextButton_27.Font = Enum.Font.SourceSansSemibold
+TextButton_27.Text = "off"
+TextButton_27.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_27.TextSize = 21.000
+TextButton_27.TextTransparency = 0.200
+
 -- Scripts:
 
-local function IBCUGD_fake_script() -- Frame_2.LocalScript 
+local function NJLQD_fake_script() -- Frame_2.LocalScript 
 	local script = Instance.new('LocalScript', Frame_2)
 
 	local frame = script.Parent -- Получаем ссылку на Frame
@@ -647,8 +670,8 @@ local function IBCUGD_fake_script() -- Frame_2.LocalScript
 	animateColor()
 	
 end
-coroutine.wrap(IBCUGD_fake_script)()
-local function XJQLS_fake_script() -- Frame_3.LocalScript 
+coroutine.wrap(NJLQD_fake_script)()
+local function BUGGIOI_fake_script() -- Frame_3.LocalScript 
 	local script = Instance.new('LocalScript', Frame_3)
 
 	local frame = script.Parent -- Получаем ссылку на Frame
@@ -676,8 +699,8 @@ local function XJQLS_fake_script() -- Frame_3.LocalScript
 	animateColor()
 	
 end
-coroutine.wrap(XJQLS_fake_script)()
-local function IPFF_fake_script() -- Frame_4.LocalScript 
+coroutine.wrap(BUGGIOI_fake_script)()
+local function TUSSQF_fake_script() -- Frame_4.LocalScript 
 	local script = Instance.new('LocalScript', Frame_4)
 
 	local frame = script.Parent -- Получаем ссылку на Frame
@@ -705,8 +728,8 @@ local function IPFF_fake_script() -- Frame_4.LocalScript
 	animateColor()
 	
 end
-coroutine.wrap(IPFF_fake_script)()
-local function OUOHT_fake_script() -- Frame_5.LocalScript 
+coroutine.wrap(TUSSQF_fake_script)()
+local function DSFVQDF_fake_script() -- Frame_5.LocalScript 
 	local script = Instance.new('LocalScript', Frame_5)
 
 	local frame = script.Parent -- Получаем ссылку на Frame
@@ -734,8 +757,8 @@ local function OUOHT_fake_script() -- Frame_5.LocalScript
 	animateColor()
 	
 end
-coroutine.wrap(OUOHT_fake_script)()
-local function EEPLAQ_fake_script() -- Frame_6.LocalScript 
+coroutine.wrap(DSFVQDF_fake_script)()
+local function LTBHDSC_fake_script() -- Frame_6.LocalScript 
 	local script = Instance.new('LocalScript', Frame_6)
 
 	local frame = script.Parent -- Получаем ссылку на Frame
@@ -763,8 +786,8 @@ local function EEPLAQ_fake_script() -- Frame_6.LocalScript
 	animateColor()
 	
 end
-coroutine.wrap(EEPLAQ_fake_script)()
-local function SGQCQ_fake_script() -- Frame.LocalScript 
+coroutine.wrap(LTBHDSC_fake_script)()
+local function LHYJSR_fake_script() -- Frame.LocalScript 
 	local script = Instance.new('LocalScript', Frame)
 
 	ui = script.Parent
@@ -772,8 +795,8 @@ local function SGQCQ_fake_script() -- Frame.LocalScript
 	ui.Active = true
 	ui.Selectable = true
 end
-coroutine.wrap(SGQCQ_fake_script)()
-local function IRQJ_fake_script() -- Frame_7.LocalScript 
+coroutine.wrap(LHYJSR_fake_script)()
+local function XWYWT_fake_script() -- Frame_7.LocalScript 
 	local script = Instance.new('LocalScript', Frame_7)
 
 	local frame = script.Parent -- Получаем ссылку на Frame
@@ -801,8 +824,8 @@ local function IRQJ_fake_script() -- Frame_7.LocalScript
 	animateColor()
 	
 end
-coroutine.wrap(IRQJ_fake_script)()
-local function LKUDOKX_fake_script() -- Frame_8.LocalScript 
+coroutine.wrap(XWYWT_fake_script)()
+local function YLNCLV_fake_script() -- Frame_8.LocalScript 
 	local script = Instance.new('LocalScript', Frame_8)
 
 	local frame = script.Parent -- Получаем ссылку на Frame
@@ -830,8 +853,8 @@ local function LKUDOKX_fake_script() -- Frame_8.LocalScript
 	animateColor()
 	
 end
-coroutine.wrap(LKUDOKX_fake_script)()
-local function LIQLQ_fake_script() -- Frame_9.LocalScript 
+coroutine.wrap(YLNCLV_fake_script)()
+local function VQGGRRN_fake_script() -- Frame_9.LocalScript 
 	local script = Instance.new('LocalScript', Frame_9)
 
 	local frame = script.Parent -- Получаем ссылку на Frame
@@ -859,8 +882,8 @@ local function LIQLQ_fake_script() -- Frame_9.LocalScript
 	animateColor()
 	
 end
-coroutine.wrap(LIQLQ_fake_script)()
-local function FGSK_fake_script() -- Frame_10.LocalScript 
+coroutine.wrap(VQGGRRN_fake_script)()
+local function FNOPJ_fake_script() -- Frame_10.LocalScript 
 	local script = Instance.new('LocalScript', Frame_10)
 
 	local frame = script.Parent -- Получаем ссылку на Frame
@@ -888,8 +911,8 @@ local function FGSK_fake_script() -- Frame_10.LocalScript
 	animateColor()
 	
 end
-coroutine.wrap(FGSK_fake_script)()
-local function NIKNA_fake_script() -- Frame_11.LocalScript 
+coroutine.wrap(FNOPJ_fake_script)()
+local function TUQKPWV_fake_script() -- Frame_11.LocalScript 
 	local script = Instance.new('LocalScript', Frame_11)
 
 	local frame = script.Parent -- Получаем ссылку на Frame
@@ -917,8 +940,8 @@ local function NIKNA_fake_script() -- Frame_11.LocalScript
 	animateColor()
 	
 end
-coroutine.wrap(NIKNA_fake_script)()
-local function KWEMQ_fake_script() -- Frame_12.LocalScript 
+coroutine.wrap(TUQKPWV_fake_script)()
+local function GABX_fake_script() -- Frame_12.LocalScript 
 	local script = Instance.new('LocalScript', Frame_12)
 
 	local frame = script.Parent -- Получаем ссылку на Frame
@@ -946,5 +969,60 @@ local function KWEMQ_fake_script() -- Frame_12.LocalScript
 	animateColor()
 	
 end
-coroutine.wrap(KWEMQ_fake_script)()
+coroutine.wrap(GABX_fake_script)()
+local function DSIQ_fake_script() -- TextButton_27.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_27)
 
+	-- Получаем ссылку на TextButton и Frame
+	local button = script.Parent -- Предполагаем, что LocalScript находится в TextButton
+	local frame = button.Parent:WaitForChild("Frame") -- Находим Frame в том же родительском объекте
+	
+	-- Начальное состояние Frame (скрыто)
+	frame.Visible = false
+	
+	-- Обработчик нажатия на кнопку
+	button.MouseButton1Click:Connect(function()
+		-- Переключаем видимость Frame
+		frame.Visible = not frame.Visible
+		if frame.Visible then
+			button.Text = "on" -- Меняем текст кнопки на "Закрыть"
+		else
+			button.Text = "off" -- Меняем текст кнопки на "Открыть"
+		end
+	end)
+	
+end
+coroutine.wrap(DSIQ_fake_script)()
+local function YWOKRW_fake_script() -- TextButton_27.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_27)
+
+	local button = script.Parent
+	local tweenService = game:GetService("TweenService")
+	
+	-- Определяем параметры анимации
+	local originalSize = button.Size
+	local enlargedSize = UDim2.new(0, 85, 0, 37) -- Увеличенный размер кнопки
+	local originalColor = button.BackgroundColor3
+	
+	local function onMouseEnter()
+		local tween = tweenService:Create(button, TweenInfo.new(0.2), {Size = enlargedSize, BackgroundColor3 = Color3.new(0, 0.7, 1)})
+		tween:Play()
+	end
+	
+	local function onMouseLeave()
+		local tween = tweenService:Create(button, TweenInfo.new(0.2), {Size = originalSize, BackgroundColor3 = originalColor})
+		tween:Play()
+	end
+	
+	local function onMouseClick()
+		local tween = tweenService:Create(button, TweenInfo.new(0.1), {Size = originalSize, BackgroundColor3 = Color3.new(0, 0.3, 0.8)})
+		tween:Play()
+	end
+	
+	-- Подключаем события мыши
+	button.MouseEnter:Connect(onMouseEnter)
+	button.MouseLeave:Connect(onMouseLeave)
+	button.MouseButton1Click:Connect(onMouseClick)
+	
+end
+coroutine.wrap(YWOKRW_fake_script)()
