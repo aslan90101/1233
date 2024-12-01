@@ -3,7 +3,6 @@
 
 -- Instances:
 
-local ScreenGui = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 local TextLabel = Instance.new("TextLabel")
 local TextButton = Instance.new("TextButton")
@@ -43,18 +42,22 @@ local Frame_6 = Instance.new("Frame")
 local Frame_7 = Instance.new("Frame")
 local TextLabel_8 = Instance.new("TextLabel")
 local TextButton_24 = Instance.new("TextButton")
+local TextButton_25 = Instance.new("TextButton")
+local Frame_8 = Instance.new("Frame")
+local Frame_9 = Instance.new("Frame")
+local Frame_10 = Instance.new("Frame")
+local Frame_11 = Instance.new("Frame")
+local Frame_12 = Instance.new("Frame")
+local TextButton_26 = Instance.new("TextButton")
 
 --Properties:
 
-ScreenGui.Parent = game.CoreGui
-ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-
-Frame.Parent = ScreenGui
+Frame.Parent = game.StarterGui.ScreenGui
 Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Frame.BackgroundTransparency = 0.300
 Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Frame.BorderSizePixel = 0
-Frame.Position = UDim2.new(0.0779225305, 0, 0.0188442972, 0)
+Frame.Position = UDim2.new(0.156869918, 0, 0.0251257047, 0)
 Frame.Size = UDim2.new(0, 1200, 0, 724)
 
 TextLabel.Parent = Frame
@@ -80,9 +83,6 @@ TextButton.Font = Enum.Font.SourceSansSemibold
 TextButton.Text = "Blizt Crack"
 TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton.TextSize = 21.000
-TextButton.MouseButton1Down:connect(function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/aslan90101/blzrcrack/refs/heads/main/ZTTЕ.lua", true))()
-end)
 
 TextButton_2.Parent = Frame
 TextButton_2.BackgroundColor3 = Color3.fromRGB(20, 31, 89)
@@ -95,9 +95,6 @@ TextButton_2.Font = Enum.Font.SourceSansSemibold
 TextButton_2.Text = "Verbal Hub"
 TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_2.TextSize = 21.000
-TextButton_2.MouseButton1Down:connect(function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/VerbalHubz/Verbal-Hub/main/Verbalhub.lua", true))()
-end)
 
 TextLabel_2.Parent = Frame
 TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -134,7 +131,7 @@ TextButton_4.BorderSizePixel = 0
 TextButton_4.Position = UDim2.new(0.188547492, 0, 0.115020297, 0)
 TextButton_4.Size = UDim2.new(0, 200, 0, 28)
 TextButton_4.Font = Enum.Font.SourceSansSemibold
-TextButton_4.Text = "Rainbow Platform"
+TextButton_4.Text = "Rainbow Square BIG"
 TextButton_4.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_4.TextSize = 21.000
 TextButton_4.MouseButton1Down:connect(function()
@@ -221,7 +218,7 @@ TextButton_9.BorderSizePixel = 0
 TextButton_9.Position = UDim2.new(0.365223467, 0, 0.0622462779, 0)
 TextButton_9.Size = UDim2.new(0, 200, 0, 28)
 TextButton_9.Font = Enum.Font.SourceSansSemibold
-TextButton_9.Text = "FLY GUI"
+TextButton_9.Text = "FLY GUI !kick risk!"
 TextButton_9.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_9.TextSize = 21.000
 TextButton_9.MouseButton1Down:connect(function()
@@ -282,7 +279,7 @@ TextButton_12.Text = "Nameless Admin"
 TextButton_12.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_12.TextSize = 21.000
 TextButton_12.MouseButton1Down:connect(function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source", true))()
+loadstring(game:HttpGet("loadstring(game:HttpGet('https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source'))()", true))()
 end)
 
 TextButton_13.Parent = Frame
@@ -293,11 +290,11 @@ TextButton_13.BorderSizePixel = 0
 TextButton_13.Position = UDim2.new(0.540502787, 0, 0.115020297, 0)
 TextButton_13.Size = UDim2.new(0, 200, 0, 28)
 TextButton_13.Font = Enum.Font.SourceSansSemibold
-TextButton_13.Text = "ESP Players"
+TextButton_13.Text = "Infinite Yield"
 TextButton_13.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_13.TextSize = 21.000
 TextButton_13.MouseButton1Down:connect(function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/aslan90101/2134/refs/heads/main/ESP.lua", true))()
+loadstring(game:HttpGet("loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()", true))()
 end)
 
 TextLabel_5.Parent = Frame
@@ -335,7 +332,7 @@ TextButton_15.BorderSizePixel = 0
 TextButton_15.Position = UDim2.new(0.711592197, 0, 0.115020297, 0)
 TextButton_15.Size = UDim2.new(0, 200, 0, 28)
 TextButton_15.Font = Enum.Font.SourceSansSemibold
-TextButton_15.Text = "My GUI 2"
+TextButton_15.Text = "My GUI 2 !NL!"
 TextButton_15.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_15.TextSize = 21.000
 TextButton_15.MouseButton1Down:connect(function()
@@ -414,6 +411,7 @@ TextButton_19.MouseButton1Down:connect(function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/aslan90101/first-person/refs/heads/main/ufp.lua", true))()
 end)
 
+
 TextButton_20.Parent = Frame
 TextButton_20.BackgroundColor3 = Color3.fromRGB(20, 31, 89)
 TextButton_20.BackgroundTransparency = 0.650
@@ -449,7 +447,7 @@ TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_7.BackgroundTransparency = 0.650
 TextLabel_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_7.BorderSizePixel = 0
-TextLabel_7.Position = UDim2.new(0.188547492, 0, 0.358592689, 0)
+TextLabel_7.Position = UDim2.new(0.188547462, 0, 0.401410341, 0)
 TextLabel_7.Size = UDim2.new(0, 200, 0, 24)
 TextLabel_7.Font = Enum.Font.SourceSansSemibold
 TextLabel_7.Text = "Universal TOP Scripts"
@@ -539,21 +537,89 @@ TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_8.TextSize = 100.000
 TextLabel_8.TextWrapped = true
 
-TextButton_24.Parent = ScreenGui
-TextButton_24.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_24.BackgroundTransparency = 0.600
+TextButton_24.Parent = Frame
+TextButton_24.BackgroundColor3 = Color3.fromRGB(20, 31, 89)
+TextButton_24.BackgroundTransparency = 0.650
 TextButton_24.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_24.BorderSizePixel = 0
-TextButton_24.Position = UDim2.new(0.946969688, 0, 0.94723618, 0)
-TextButton_24.Size = UDim2.new(0, 70, 0, 34)
+TextButton_24.Position = UDim2.new(0.00894320197, 0, 0.278467238, 0)
+TextButton_24.Size = UDim2.new(0, 200, 0, 28)
 TextButton_24.Font = Enum.Font.SourceSansSemibold
-TextButton_24.Text = "off"
-TextButton_24.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_24.Text = "Esp"
+TextButton_24.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_24.TextSize = 21.000
+TextButton_24.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/aslan90101/2134/refs/heads/main/ESP.lua", true))()
+end)
+
+TextButton_25.Parent = Frame
+TextButton_25.BackgroundColor3 = Color3.fromRGB(20, 31, 89)
+TextButton_25.BackgroundTransparency = 0.650
+TextButton_25.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_25.BorderSizePixel = 0
+TextButton_25.Position = UDim2.new(0.365223497, 0, 0.225777328, 0)
+TextButton_25.Size = UDim2.new(0, 200, 0, 28)
+TextButton_25.Font = Enum.Font.SourceSansSemibold
+TextButton_25.Text = "Inf Jump Gui"
+TextButton_25.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_25.TextSize = 21.000
+TextButton_25.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/aslan90101/123qwesadzxc/refs/heads/main/as.lua", true))()
+end)
+
+Frame_8.Parent = Frame
+Frame_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_8.BorderSizePixel = 0
+Frame_8.Position = UDim2.new(0.899166644, 0, 0.0151933702, 0)
+Frame_8.Size = UDim2.new(0, 11, 0, 698)
+
+Frame_9.Parent = Frame
+Frame_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_9.BorderSizePixel = 0
+Frame_9.Position = UDim2.new(0.919166684, 0, 0.0151933702, 0)
+Frame_9.Size = UDim2.new(0, 11, 0, 698)
+
+Frame_10.Parent = Frame
+Frame_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_10.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_10.BorderSizePixel = 0
+Frame_10.Position = UDim2.new(0.94083333, 0, 0.0124309389, 0)
+Frame_10.Size = UDim2.new(0, 11, 0, 698)
+
+Frame_11.Parent = Frame
+Frame_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_11.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_11.BorderSizePixel = 0
+Frame_11.Position = UDim2.new(0.960833311, 0, 0.0151933702, 0)
+Frame_11.Size = UDim2.new(0, 11, 0, 698)
+
+Frame_12.Parent = Frame
+Frame_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_12.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_12.BorderSizePixel = 0
+Frame_12.Position = UDim2.new(0.980000019, 0, 0.0124309389, 0)
+Frame_12.Size = UDim2.new(0, 11, 0, 698)
+
+TextButton_26.Parent = Frame
+TextButton_26.BackgroundColor3 = Color3.fromRGB(20, 31, 89)
+TextButton_26.BackgroundTransparency = 0.650
+TextButton_26.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_26.BorderSizePixel = 0
+TextButton_26.Position = UDim2.new(0.188547462, 0, 0.334003687, 0)
+TextButton_26.Size = UDim2.new(0, 200, 0, 28)
+TextButton_26.Font = Enum.Font.SourceSansSemibold
+TextButton_26.Text = "Steps To The Sky"
+TextButton_26.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_26.TextSize = 21.000
+TextButton_26.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/aslan90101/dfdfdfd/refs/heads/main/fff.lua", true))()
+end)
 
 -- Scripts:
 
-local function ANYWZZ_fake_script() -- Frame_2.LocalScript 
+local function IBCUGD_fake_script() -- Frame_2.LocalScript 
 	local script = Instance.new('LocalScript', Frame_2)
 
 	local frame = script.Parent -- Получаем ссылку на Frame
@@ -581,8 +647,8 @@ local function ANYWZZ_fake_script() -- Frame_2.LocalScript
 	animateColor()
 	
 end
-coroutine.wrap(ANYWZZ_fake_script)()
-local function GZHHQXD_fake_script() -- Frame_3.LocalScript 
+coroutine.wrap(IBCUGD_fake_script)()
+local function XJQLS_fake_script() -- Frame_3.LocalScript 
 	local script = Instance.new('LocalScript', Frame_3)
 
 	local frame = script.Parent -- Получаем ссылку на Frame
@@ -610,8 +676,8 @@ local function GZHHQXD_fake_script() -- Frame_3.LocalScript
 	animateColor()
 	
 end
-coroutine.wrap(GZHHQXD_fake_script)()
-local function VTVRNPL_fake_script() -- Frame_4.LocalScript 
+coroutine.wrap(XJQLS_fake_script)()
+local function IPFF_fake_script() -- Frame_4.LocalScript 
 	local script = Instance.new('LocalScript', Frame_4)
 
 	local frame = script.Parent -- Получаем ссылку на Frame
@@ -639,8 +705,8 @@ local function VTVRNPL_fake_script() -- Frame_4.LocalScript
 	animateColor()
 	
 end
-coroutine.wrap(VTVRNPL_fake_script)()
-local function LDDN_fake_script() -- Frame_5.LocalScript 
+coroutine.wrap(IPFF_fake_script)()
+local function OUOHT_fake_script() -- Frame_5.LocalScript 
 	local script = Instance.new('LocalScript', Frame_5)
 
 	local frame = script.Parent -- Получаем ссылку на Frame
@@ -668,8 +734,8 @@ local function LDDN_fake_script() -- Frame_5.LocalScript
 	animateColor()
 	
 end
-coroutine.wrap(LDDN_fake_script)()
-local function XXTL_fake_script() -- Frame_6.LocalScript 
+coroutine.wrap(OUOHT_fake_script)()
+local function EEPLAQ_fake_script() -- Frame_6.LocalScript 
 	local script = Instance.new('LocalScript', Frame_6)
 
 	local frame = script.Parent -- Получаем ссылку на Frame
@@ -697,8 +763,8 @@ local function XXTL_fake_script() -- Frame_6.LocalScript
 	animateColor()
 	
 end
-coroutine.wrap(XXTL_fake_script)()
-local function XJYAU_fake_script() -- Frame.LocalScript 
+coroutine.wrap(EEPLAQ_fake_script)()
+local function SGQCQ_fake_script() -- Frame.LocalScript 
 	local script = Instance.new('LocalScript', Frame)
 
 	ui = script.Parent
@@ -706,8 +772,8 @@ local function XJYAU_fake_script() -- Frame.LocalScript
 	ui.Active = true
 	ui.Selectable = true
 end
-coroutine.wrap(XJYAU_fake_script)()
-local function VWXOOLR_fake_script() -- Frame_7.LocalScript 
+coroutine.wrap(SGQCQ_fake_script)()
+local function IRQJ_fake_script() -- Frame_7.LocalScript 
 	local script = Instance.new('LocalScript', Frame_7)
 
 	local frame = script.Parent -- Получаем ссылку на Frame
@@ -735,28 +801,150 @@ local function VWXOOLR_fake_script() -- Frame_7.LocalScript
 	animateColor()
 	
 end
-coroutine.wrap(VWXOOLR_fake_script)()
-local function GCPNK_fake_script() -- TextButton_24.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_24)
+coroutine.wrap(IRQJ_fake_script)()
+local function LKUDOKX_fake_script() -- Frame_8.LocalScript 
+	local script = Instance.new('LocalScript', Frame_8)
 
-	-- Получаем ссылку на TextButton и Frame
-	local button = script.Parent -- Предполагаем, что LocalScript находится в TextButton
-	local frame = button.Parent:WaitForChild("Frame") -- Находим Frame в том же родительском объекте
+	local frame = script.Parent -- Получаем ссылку на Frame
+	local tweenService = game:GetService("TweenService")
 	
-	-- Начальное состояние Frame (скрыто)
-	frame.Visible = false
+	-- Функция для создания анимации цвета
+	local function animateColor()
+		while true do
+			-- Создаем анимацию изменения цвета
+			local tween1 = tweenService:Create(frame, TweenInfo.new(2, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut), {BackgroundColor3 = Color3.fromRGB(255, 0, 0)}) -- Красный
+			local tween2 = tweenService:Create(frame, TweenInfo.new(2, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut), {BackgroundColor3 = Color3.fromRGB(0, 255, 0)}) -- Зеленый
+			local tween3 = tweenService:Create(frame, TweenInfo.new(2, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut), {BackgroundColor3 = Color3.fromRGB(0, 0, 255)}) -- Синий
 	
-	-- Обработчик нажатия на кнопку
-	button.MouseButton1Click:Connect(function()
-		-- Переключаем видимость Frame
-		frame.Visible = not frame.Visible
-		if frame.Visible then
-			button.Text = "on" -- Меняем текст кнопки на "Закрыть"
-		else
-			button.Text = "off" -- Меняем текст кнопки на "Открыть"
+			-- Запускаем анимацию
+			tween1:Play()
+			tween1.Completed:Wait() -- Ждем окончания первой анимации
+			tween2:Play()
+			tween2.Completed:Wait() -- Ждем окончания второй анимации
+			tween3:Play()
+			tween3.Completed:Wait() -- Ждем окончания третьей анимации
 		end
-	end)
+	end
+	
+	-- Запускаем анимацию
+	animateColor()
 	
 end
-coroutine.wrap(GCPNK_fake_script)()
+coroutine.wrap(LKUDOKX_fake_script)()
+local function LIQLQ_fake_script() -- Frame_9.LocalScript 
+	local script = Instance.new('LocalScript', Frame_9)
+
+	local frame = script.Parent -- Получаем ссылку на Frame
+	local tweenService = game:GetService("TweenService")
+	
+	-- Функция для создания анимации цвета
+	local function animateColor()
+		while true do
+			-- Создаем анимацию изменения цвета
+			local tween1 = tweenService:Create(frame, TweenInfo.new(2, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut), {BackgroundColor3 = Color3.fromRGB(255, 0, 0)}) -- Красный
+			local tween2 = tweenService:Create(frame, TweenInfo.new(2, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut), {BackgroundColor3 = Color3.fromRGB(0, 255, 0)}) -- Зеленый
+			local tween3 = tweenService:Create(frame, TweenInfo.new(2, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut), {BackgroundColor3 = Color3.fromRGB(0, 0, 255)}) -- Синий
+	
+			-- Запускаем анимацию
+			tween1:Play()
+			tween1.Completed:Wait() -- Ждем окончания первой анимации
+			tween2:Play()
+			tween2.Completed:Wait() -- Ждем окончания второй анимации
+			tween3:Play()
+			tween3.Completed:Wait() -- Ждем окончания третьей анимации
+		end
+	end
+	
+	-- Запускаем анимацию
+	animateColor()
+	
+end
+coroutine.wrap(LIQLQ_fake_script)()
+local function FGSK_fake_script() -- Frame_10.LocalScript 
+	local script = Instance.new('LocalScript', Frame_10)
+
+	local frame = script.Parent -- Получаем ссылку на Frame
+	local tweenService = game:GetService("TweenService")
+	
+	-- Функция для создания анимации цвета
+	local function animateColor()
+		while true do
+			-- Создаем анимацию изменения цвета
+			local tween1 = tweenService:Create(frame, TweenInfo.new(2, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut), {BackgroundColor3 = Color3.fromRGB(255, 0, 0)}) -- Красный
+			local tween2 = tweenService:Create(frame, TweenInfo.new(2, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut), {BackgroundColor3 = Color3.fromRGB(0, 255, 0)}) -- Зеленый
+			local tween3 = tweenService:Create(frame, TweenInfo.new(2, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut), {BackgroundColor3 = Color3.fromRGB(0, 0, 255)}) -- Синий
+	
+			-- Запускаем анимацию
+			tween1:Play()
+			tween1.Completed:Wait() -- Ждем окончания первой анимации
+			tween2:Play()
+			tween2.Completed:Wait() -- Ждем окончания второй анимации
+			tween3:Play()
+			tween3.Completed:Wait() -- Ждем окончания третьей анимации
+		end
+	end
+	
+	-- Запускаем анимацию
+	animateColor()
+	
+end
+coroutine.wrap(FGSK_fake_script)()
+local function NIKNA_fake_script() -- Frame_11.LocalScript 
+	local script = Instance.new('LocalScript', Frame_11)
+
+	local frame = script.Parent -- Получаем ссылку на Frame
+	local tweenService = game:GetService("TweenService")
+	
+	-- Функция для создания анимации цвета
+	local function animateColor()
+		while true do
+			-- Создаем анимацию изменения цвета
+			local tween1 = tweenService:Create(frame, TweenInfo.new(2, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut), {BackgroundColor3 = Color3.fromRGB(255, 0, 0)}) -- Красный
+			local tween2 = tweenService:Create(frame, TweenInfo.new(2, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut), {BackgroundColor3 = Color3.fromRGB(0, 255, 0)}) -- Зеленый
+			local tween3 = tweenService:Create(frame, TweenInfo.new(2, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut), {BackgroundColor3 = Color3.fromRGB(0, 0, 255)}) -- Синий
+	
+			-- Запускаем анимацию
+			tween1:Play()
+			tween1.Completed:Wait() -- Ждем окончания первой анимации
+			tween2:Play()
+			tween2.Completed:Wait() -- Ждем окончания второй анимации
+			tween3:Play()
+			tween3.Completed:Wait() -- Ждем окончания третьей анимации
+		end
+	end
+	
+	-- Запускаем анимацию
+	animateColor()
+	
+end
+coroutine.wrap(NIKNA_fake_script)()
+local function KWEMQ_fake_script() -- Frame_12.LocalScript 
+	local script = Instance.new('LocalScript', Frame_12)
+
+	local frame = script.Parent -- Получаем ссылку на Frame
+	local tweenService = game:GetService("TweenService")
+	
+	-- Функция для создания анимации цвета
+	local function animateColor()
+		while true do
+			-- Создаем анимацию изменения цвета
+			local tween1 = tweenService:Create(frame, TweenInfo.new(2, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut), {BackgroundColor3 = Color3.fromRGB(255, 0, 0)}) -- Красный
+			local tween2 = tweenService:Create(frame, TweenInfo.new(2, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut), {BackgroundColor3 = Color3.fromRGB(0, 255, 0)}) -- Зеленый
+			local tween3 = tweenService:Create(frame, TweenInfo.new(2, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut), {BackgroundColor3 = Color3.fromRGB(0, 0, 255)}) -- Синий
+	
+			-- Запускаем анимацию
+			tween1:Play()
+			tween1.Completed:Wait() -- Ждем окончания первой анимации
+			tween2:Play()
+			tween2.Completed:Wait() -- Ждем окончания второй анимации
+			tween3:Play()
+			tween3.Completed:Wait() -- Ждем окончания третьей анимации
+		end
+	end
+	
+	-- Запускаем анимацию
+	animateColor()
+	
+end
+coroutine.wrap(KWEMQ_fake_script)()
 
