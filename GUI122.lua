@@ -89,7 +89,7 @@ TextButton.Text = "Blizt Crack"
 TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton.TextSize = 21.000
 TextButton.MouseButton1Down:connect(function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/aslan90101/blzrcrack/refs/heads/main/ZTTЕ.lua", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Nurysium/LeaksStore/refs/heads/main/bin/BliztHub.lua", true))()
 end)
 
 TextButton_2.Parent = Frame
